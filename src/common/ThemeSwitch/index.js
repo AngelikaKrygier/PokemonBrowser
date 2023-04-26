@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { Button, Text, Box, IconWrapper, StyledIcon } from "./styled";
+import { ThemeButton, Text, Box, IconWrapper, StyledIcon } from "./styled";
 import { selectThemeLightState, toggleTheme } from "./themeSlice";
 
 export const ThemeSwitch = () => {
@@ -7,7 +7,7 @@ export const ThemeSwitch = () => {
     const lightTheme = useSelector(selectThemeLightState);
 
     return (
-        <Button
+        <ThemeButton
             onClick={() => dispatch(toggleTheme())}
         >
             <Text>zmień motyw</Text>
@@ -16,6 +16,6 @@ export const ThemeSwitch = () => {
                     <StyledIcon />
                 </IconWrapper>
             </Box>
-        </Button>
+        </ThemeButton>
     );
 };

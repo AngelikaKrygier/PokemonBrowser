@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 import { ReactComponent as Icon } from "./sun.svg";
 
-export const Button = styled.button`
+export const ThemeButton = styled.button`
 display: flex;
 gap: 10px;
 align-items: center;
@@ -12,15 +12,15 @@ border: none;
 export const Text = styled.span`
 font-size: 15px;
 margin: 0;
-color: ${({ theme }) => theme.button.font};
+color: ${({ theme }) => theme.switchButton.font};
 `;
 
 export const Box = styled.span`
 width: 40px;
 display: flex;
 justify-content: flex-start;
-background-color: ${({ theme }) => theme.button.background};
-border: 1px solid ${({ theme }) => theme.button.border};
+background-color: ${({ theme }) => theme.switchButton.background};
+border: 1px solid ${({ theme }) => theme.switchButton.border};
 border-radius: 25%;
 margin: 0px;
 `;
