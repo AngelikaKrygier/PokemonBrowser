@@ -11,11 +11,10 @@ export const App = () => {
   const theme = useSelector(selectThemeLightState)
 
   return (
-
     <ThemeProvider theme={theme ? light : dark}>
       <GlobalStyle />
+      <Navigation />
       <Container>
-        <Navigation />
         <Pokemon />
       </Container>
     </ThemeProvider>
