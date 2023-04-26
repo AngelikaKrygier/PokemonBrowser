@@ -10,6 +10,8 @@ const common = {
 const colorNames = {
     white: "#fff",
     cornFlowerBlue: "#6195ED",
+    lightTeal: "#009ca4",
+    teal: "#01838b",
     dustyGrey: "#999999",
     doveGrey: "#6F6F6F",
     mercury: "#E7E7E7",
@@ -27,10 +29,14 @@ export const light = {
         background: colorNames.doveGrey,
         fontColor: colorNames.white,
     },
-    button: {
+    switchButton: {
         background: colorNames.dustyGrey,
         border: colorNames.doveGrey,
-        font: colorNames.dune,
+        font: colorNames.mercury,
+    },
+    searchButton: {
+        background: colorNames.teal,
+        fontColor: colorNames.white,
     },
 };
 
@@ -44,9 +50,13 @@ export const dark = {
         background: colorNames.doveGrey,
         fontColor: colorNames.white,
     },
-    button: {
+    switchButton: {
         background: colorNames.dustyGrey,
         border: colorNames.doveGrey,
-        font: colorNames.dune,
+        font: colorNames.mercury,
+    },
+    searchButton: {
+        background: colorNames.lightTeal,
+        fontColor: colorNames.white,
     },
 };
