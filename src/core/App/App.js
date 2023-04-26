@@ -6,6 +6,7 @@ import { GlobalStyle } from "./GlobalStyle";
 import { useSelector } from 'react-redux';
 import { dark, light } from "../App/theme";
 import { selectThemeLightState } from "../../common/ThemeSwitch/themeSlice";
+import { Footer } from "../../common/Footer";
 
 export const App = () => {
   const theme = useSelector(selectThemeLightState)
@@ -17,6 +18,7 @@ export const App = () => {
       <Container>
         <Pokemon />
       </Container>
+      <Footer />
     </ThemeProvider>
   );
 };
