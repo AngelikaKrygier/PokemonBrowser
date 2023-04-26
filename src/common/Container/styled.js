@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.main`
 margin: 0 auto;
 max-width: 1000px;
 padding: ${({ theme }) => theme.padding.small};

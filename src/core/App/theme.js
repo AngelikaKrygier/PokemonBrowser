@@ -22,6 +22,7 @@ const colorNames = {
 export const light = {
     ...common,
     background: colorNames.mercury,
+    baseColorFont: colorNames.tundora,
     container: {
         background: colorNames.white,
     },
@@ -38,11 +39,22 @@ export const light = {
         background: colorNames.teal,
         fontColor: colorNames.white,
     },
+    pokemonHeader: {
+        fontColor: colorNames.tundora,
+    },
+    tile: {
+        description: colorNames.dune,
+    },
+    footer: {
+        background: colorNames.teal,
+        fontColor: colorNames.white,
+    },
 };
 
 export const dark = {
     ...common,
     background: colorNames.dune,
+    baseColorFont: colorNames.white,
     container: {
         background: colorNames.tundora,
     },
@@ -56,6 +68,16 @@ export const dark = {
         font: colorNames.mercury,
     },
     searchButton: {
+        background: colorNames.lightTeal,
+        fontColor: colorNames.white,
+    },
+    pokemonHeader: {
+        fontColor: colorNames.white,
+    },
+    tile: {
+        description: colorNames.white,
+    },
+    footer: {
         background: colorNames.lightTeal,
         fontColor: colorNames.white,
     },
