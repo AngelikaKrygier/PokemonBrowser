@@ -7,6 +7,7 @@ gap: 10px;
 align-items: center;
 background: transparent;
 border: none;
+cursor: pointer;
 `;
 
 export const Text = styled.span`
