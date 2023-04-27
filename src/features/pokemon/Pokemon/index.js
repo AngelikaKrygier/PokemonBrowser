@@ -1,6 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
 import { Search } from "../Search";
-import { Tile } from "../../../common/Tile";
 import { Header } from "./styled";
 import { PokemonList } from "../PokemonList";
 import { fetchPokemonLoading, selectPokemon, selectPokemonState } from "../pokemonSlice";
