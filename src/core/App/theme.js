@@ -43,7 +43,9 @@ export const light = {
         fontColor: colorNames.tundora,
     },
     tile: {
-        description: colorNames.dune,
+        buttonBackground: colorNames.teal,
+        buttonFontColor: colorNames.white,
+        hoverButton: colorNames.lightTeal,
     },
     footer: {
         background: colorNames.teal,
@@ -75,7 +77,9 @@ export const dark = {
         fontColor: colorNames.white,
     },
     tile: {
-        description: colorNames.white,
+        buttonBackground: colorNames.lightTeal,
+        buttonFontColor: colorNames.white,
+        hoverButton: colorNames.teal,
     },
     footer: {
         background: colorNames.lightTeal,
