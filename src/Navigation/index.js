@@ -1,11 +1,15 @@
 import { ThemeSwitch } from "../common/ThemeSwitch";
-import { Nav, List, ListItem } from "./styled";
+import { Nav, List, ListItem, StyledNavLink } from "./styled";
 
 export const Navigation = () => (
     <Nav>
         <List>
-            <ListItem>Ogólne informacje</ListItem>
-            <ListItem>Pokemony</ListItem>
+            <ListItem>
+                <StyledNavLink to="/ogolneInformacje"> Ogólne informacje</StyledNavLink>
+            </ListItem>
+            <ListItem>
+                <StyledNavLink to="/pokemony">Pokemony</StyledNavLink>
+            </ListItem>
         </List>
         <ThemeSwitch />
     </Nav>

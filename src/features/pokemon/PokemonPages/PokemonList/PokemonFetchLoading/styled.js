@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as EmojiIcon } from "../../images/Emot.svg";
+import { ReactComponent as EmojiIcon } from "../../../images/Emot.svg"
 
 export const LoadingWrapper = styled.div`
 display: flex;

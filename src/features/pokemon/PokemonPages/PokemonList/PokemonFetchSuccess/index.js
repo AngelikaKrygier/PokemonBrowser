@@ -1,5 +1,5 @@
 import { List, ListItem } from "./styled";
-import { Tile } from "../../../../common/Tile";
+import { Tile } from "../../../../../common/Tile"
 
 export const PokemonFetchSuccess = ({ pokemon }) => (
     <List>
@@ -7,7 +7,7 @@ export const PokemonFetchSuccess = ({ pokemon }) => (
             <ListItem>
                 <Tile
                     name={p.name}
-                    seeMore="Zobacz więcęj"
+                    content="Zobacz więcęj"
                     img={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${p.url.split('/')[6]}.png`}
                 >
                 </Tile>

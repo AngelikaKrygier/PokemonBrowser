@@ -4,7 +4,6 @@ export const StyledTile = styled.div`
 display: grid;
 justify-content: center;
 grid-gap: 15px;
-width: 250px;
 box-shadow: ${({ theme }) => theme.boxShadow.basic};
 margin: 20px 0 0;
 padding: 10px 20px;
@@ -17,7 +16,7 @@ font-size: 20px;
 text-transform: uppercase;
 `;
 
-export const SeeMore = styled.button`
+export const TileButton = styled.button`
 background-color: ${({ theme }) => theme.tile.buttonBackground};
 color: ${({ theme }) => theme.tile.buttonFontColor};
 border: none;
@@ -36,4 +35,10 @@ export const Link = styled.a`
 `;
 
 export const Img = styled.img`
+max-width: 500px;
+border-radius: 10%;
+justify-self: center;
+`;
+
+export const Description = styled.p`
 `;

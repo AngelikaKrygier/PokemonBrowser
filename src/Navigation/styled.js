@@ -1,11 +1,12 @@
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
-export const Nav = styled.div`
+export const Nav = styled.nav`
 padding: 0 30px;
 display: grid;
 grid-template-columns: 1fr auto;
 gap: 20px;
-background-color: ${({theme})=>theme.navigation.background};
+background-color: ${({ theme }) => theme.navigation.background};
 `;
 
 export const List = styled.ul`
@@ -20,5 +21,9 @@ export const ListItem = styled.li`
 padding: 20px;
 list-style: none;
 cursor: pointer;
-color: ${({theme})=> theme.navigation.fontColor};
+`;
+
+export const StyledNavLink = styled(NavLink)`
+text-decoration: none;
+color: ${({ theme }) => theme.navigation.fontColor};
 `;

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as IconDanger } from "../../images/Danger.svg"
+import { ReactComponent as IconDanger } from "../../../images/Danger.svg"
 
 export const ErrorWrapper = styled.div`
 display: flex;

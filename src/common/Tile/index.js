@@ -1,9 +1,10 @@
-import { SeeMore, StyledTile, TileHeader, Link, Img } from "../Tile/styled"
+import { TileButton, StyledTile, TileHeader, Img } from "../Tile/styled"
 
-export const Tile = ({ name, seeMore, link, img }) => (
+export const Tile = ({ name, content, img, extraDescription }) => (
     <StyledTile>
         <TileHeader>{name}</TileHeader>
-        <Img src={img}></Img>
-        <SeeMore>{seeMore}</SeeMore>
+        <Img src={img} alt="Pokemon"></Img>
+        {extraDescription}
+        <TileButton>{content}</TileButton>
     </StyledTile>
 );
