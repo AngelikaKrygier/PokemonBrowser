@@ -6,7 +6,7 @@ export const Footer = () => (
             Miłego przeglądania!
         </FooterHeader>
         <Message>
-        Angelika Krygier
+            Angelika Krygier
         </Message>
         <Message>
             Materiały pochodzą z: https://pokeapi.co/

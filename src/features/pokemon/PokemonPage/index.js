@@ -21,12 +21,12 @@ export const PokemonPage = ({ pokemonState, pokemonInf }) => {
         case !params?.key:
             return <FetchError />
         case "success":
-            return <SinglePokemonFetchSuccess 
-            id={params.key} 
-            name={pokemonInf.name}
-            height={pokemonInf.height}
-            weight={pokemonInf.weight}
-            species={pokemonInf.species.name}
+            return <SinglePokemonFetchSuccess
+                id={params.key}
+                name={pokemonInf.name}
+                height={pokemonInf.height}
+                weight={pokemonInf.weight}
+                species={pokemonInf.species.name}
             />
     };
 };

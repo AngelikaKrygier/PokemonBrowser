@@ -2,6 +2,6 @@ import { LoadingWrapper, StyledSpinner } from "./styled";
 
 export const SinglePokemonFetchLoading = () => (
     <LoadingWrapper>
-        <StyledSpinner/>
+        <StyledSpinner />
     </LoadingWrapper>
 );

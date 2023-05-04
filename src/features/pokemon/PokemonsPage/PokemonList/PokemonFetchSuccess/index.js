@@ -26,7 +26,7 @@ export const PokemonFetchSuccess = () => {
                         <StyledLink to={`pokemony/${p.url.split('/')[6]}`}>Dowiedz się więcęj!</StyledLink>
                     </TileButton>
                 </ListItem>
-            ))}
+            ))};
         </List>
     );
 };

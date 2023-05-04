@@ -20,7 +20,11 @@ const pokemonSlice = createSlice({
     },
 });
 
-export const { fetchPokemonLoading, fetchPokemonError, fetchPokemonSuccess } = pokemonSlice.actions;
+export const {
+    fetchPokemonLoading,
+    fetchPokemonError,
+    fetchPokemonSuccess
+} = pokemonSlice.actions;
 export const selectPokemonSlice = (state) => state.pokemon;
 export const selectPokemon = (state) => selectPokemonSlice(state).pokemon;
 export const selectPokemonState = (state) => selectPokemonSlice(state).pokemonState;

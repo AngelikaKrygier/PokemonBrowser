@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Search } from "./Search";
 import { Header } from "./styled";
 import { PokemonList } from "./PokemonList";
-import { fetchPokemonLoading, selectPokemonState } from "../PokemonsPage/pokemonSlice"
+import { fetchPokemonLoading, selectPokemonState } from "../PokemonsPage/pokemonSlice";
 import { useEffect } from "react";
 
 export const PokemonsPage = () => {

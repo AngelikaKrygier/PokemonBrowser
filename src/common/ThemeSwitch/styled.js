@@ -41,6 +41,5 @@ transition: 0.5s;
 `;
 
 export const StyledIcon = styled(Icon)`
-
 `;
 

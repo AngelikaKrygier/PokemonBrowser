@@ -1,7 +1,7 @@
 import { fetchSinglePokemonStateError, fetchSinglePokemonStateLoading } from "./singlePokemonSlice";
 import { getSinglePokemonInf } from "../getPokemonInf";
 import { fetchSinglePokemonStateSuccess } from "./singlePokemonSlice";
-import { all, call, delay, put, takeLatest } from "redux-saga/effects";
+import { call, delay, put, takeLatest } from "redux-saga/effects";
 
 const DELAY_ACTION = 1000;
 

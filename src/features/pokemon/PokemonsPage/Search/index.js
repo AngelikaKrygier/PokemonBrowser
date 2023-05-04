@@ -8,7 +8,7 @@ export const Search = () => {
     const query = searchParams.get("szukaj");
 
     const onInputChange = ({ target }) => {
-        const searchParams = new URLSearchParams(location.search)
+        const searchParams = new URLSearchParams(location.search);
 
         if (target.value.trim() === "") {
             searchParams.delete("szukaj")
@@ -16,7 +16,7 @@ export const Search = () => {
             searchParams.set("szukaj", target.value)
         };
 
-        history.push(`${location.pathname}?${searchParams.toString()}`)
+        history.push(`${location.pathname}?${searchParams.toString()}`);
     };
 
     return (
@@ -28,5 +28,5 @@ export const Search = () => {
             >
             </Input>
         </SearchStyled>
-    )
+    );
 };
