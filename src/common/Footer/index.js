@@ -6,7 +6,10 @@ export const Footer = () => (
             Miłego przeglądania!
         </FooterHeader>
         <Message>
-            Materiały pochodzą ze strony: https://pokeapi.co/
+        Angelika Krygier
+        </Message>
+        <Message>
+            Materiały pochodzą z: https://pokeapi.co/
         </Message>
     </StyledFooter>
 );
