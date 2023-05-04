@@ -34,9 +34,9 @@ export const App = () => {
             </Route>
             <Route path="/pokemony"><PokemonsPage /></Route>
             <Route path="/ogolneInformacje"><MainInformation /></Route>
-            {/* <Route path="/">
+            <Route path="/">
               <Redirect to="/pokemony"></Redirect>
-            </Route> */}
+            </Route>
           </Switch>
         </Container>
         <Footer />
