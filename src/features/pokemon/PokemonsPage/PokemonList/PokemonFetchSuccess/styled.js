@@ -14,6 +14,7 @@ display: grid;
 `;
 
 export const TileButton = styled.button`
+width: 100%;
 background-color: ${({ theme }) => theme.tile.buttonBackground};
 border: none;
 padding: 10px;
@@ -21,6 +22,8 @@ margin: 0 0 10px 0;
 font-size: 15px;
 cursor: pointer;
 transition: 0.3s;
+color: ${({ theme }) => theme.tile.buttonFontColor};
+box-shadow: ${({ theme }) => theme.boxShadow.basic};
 
 &:hover {
     background-color: ${({ theme }) => theme.tile.hoverButton};
@@ -28,6 +31,5 @@ transition: 0.3s;
 `;
 
 export const StyledLink = styled(Link)`
-color: ${({ theme }) => theme.tile.buttonFontColor};
 text-decoration: none;
 `;

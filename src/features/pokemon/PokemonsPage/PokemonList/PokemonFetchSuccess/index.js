@@ -21,10 +21,11 @@ export const PokemonFetchSuccess = () => {
                         name={p.name}
                         img={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${p.url.split('/')[6]}.png`}
                     />
-                    <TileButton
-                    >
-                        <StyledLink to={`pokemony/${p.url.split('/')[6]}`}>Dowiedz się więcęj!</StyledLink>
-                    </TileButton>
+                    <StyledLink to={`pokemony/${p.url.split('/')[6]}`}>
+                        <TileButton>
+                            Dowiedz się więcęj!
+                        </TileButton>
+                    </StyledLink>
                 </ListItem>
             ))};
         </List>

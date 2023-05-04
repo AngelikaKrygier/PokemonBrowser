@@ -13,7 +13,7 @@ margin: 20px auto;
 `;
 
 export const TableHeader = styled.th`
-border: 1px solid;
+border: 1px solid ${({ theme }) => theme.table.border};
 padding: 15px;
 background-color: ${({ theme }) => theme.table.headerBackground};
 color: ${({ theme }) => theme.table.headerFont};

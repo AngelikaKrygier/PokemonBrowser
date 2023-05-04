@@ -60,6 +60,7 @@ export const light = {
         headerFont: colorNames.white,
         dataBackground: colorNames.white,
         dataFont: colorNames.dune,
+        border: colorNames.dune,
     },
 };
 
@@ -104,5 +105,6 @@ export const dark = {
         headerFont: colorNames.white,
         dataBackground: colorNames.tundora,
         dataFont: colorNames.white,
+        order: colorNames.dune,
     },
 };
