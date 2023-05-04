@@ -1,5 +1,5 @@
 import { useHistory, useLocation } from "react-router-dom";
-import { Input, SearchStyled, SearchButton } from "./styled";
+import { Input, SearchStyled } from "./styled";
 
 export const Search = () => {
     const location = useLocation();
@@ -27,7 +27,6 @@ export const Search = () => {
                 onChange={onInputChange}
             >
             </Input>
-            <SearchButton>Wyszukaj Pokemona</SearchButton>
         </SearchStyled>
     )
 };
