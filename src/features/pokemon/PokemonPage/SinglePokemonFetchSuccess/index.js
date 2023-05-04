@@ -10,11 +10,11 @@ export const SinglePokemonFetchSuccess = ({ id, name, height, weight, species })
                 name={name}
                 extraContent={<FeatureTable>
                     <tr>
-                        <TableHeader scope="row">wzrost:</TableHeader>
+                        <TableHeader scope="row">wzrost [cm] :</TableHeader>
                         <TableData>{height}</TableData>
                     </tr>
                     <tr>
-                        <TableHeader scope="row">waga:</TableHeader>
+                        <TableHeader scope="row">waga [kg] :</TableHeader>
                         <TableData>{weight} </TableData>
                     </tr>
                     <tr>

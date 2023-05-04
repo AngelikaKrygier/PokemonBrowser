@@ -58,7 +58,7 @@ export const light = {
     table: {
         headerBackground: colorNames.teal,
         headerFont: colorNames.white,
-        dataBackground: colorNames.mercury,
+        dataBackground: colorNames.white,
         dataFont: colorNames.dune,
     },
 };
@@ -102,7 +102,7 @@ export const dark = {
     table: {
         headerBackground: colorNames.lightTeal,
         headerFont: colorNames.white,
-        dataBackground: colorNames.mercury,
+        dataBackground: colorNames.tundora,
         dataFont: colorNames.white,
     },
 };
