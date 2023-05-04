@@ -47,9 +47,19 @@ export const light = {
         buttonFontColor: colorNames.white,
         hoverButton: colorNames.lightTeal,
     },
+    spinner: {
+        border: colorNames.dustyGrey,
+        animation: colorNames.teal,
+    },
     footer: {
         background: colorNames.teal,
         fontColor: colorNames.white,
+    },
+    table: {
+        headerBackground: colorNames.teal,
+        headerFont: colorNames.white,
+        dataBackground: colorNames.mercury,
+        dataFont: colorNames.dune,
     },
 };
 
@@ -81,8 +91,18 @@ export const dark = {
         buttonFontColor: colorNames.white,
         hoverButton: colorNames.teal,
     },
+    spinner: {
+        border: colorNames.dustyGrey,
+        animation: colorNames.lightTeal,
+    },
     footer: {
         background: colorNames.lightTeal,
         fontColor: colorNames.white,
+    },
+    table: {
+        headerBackground: colorNames.lightTeal,
+        headerFont: colorNames.white,
+        dataBackground: colorNames.mercury,
+        dataFont: colorNames.white,
     },
 };

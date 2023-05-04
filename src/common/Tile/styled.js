@@ -14,31 +14,11 @@ export const TileHeader = styled.h2`
 color: ${({ theme }) => theme.baseColorFont};
 font-size: 20px;
 text-transform: uppercase;
-`;
-
-export const TileButton = styled.button`
-background-color: ${({ theme }) => theme.tile.buttonBackground};
-color: ${({ theme }) => theme.tile.buttonFontColor};
-border: none;
-padding: 10px;
-margin: 0 0 10px 0;
-font-size: 15px;
-cursor: pointer;
-transition: 0.3s;
-
-&:hover {
-    background-color: ${({ theme }) => theme.tile.hoverButton};
-};
-`;
-
-export const Link = styled.a`
+text-align: center;
 `;
 
 export const Img = styled.img`
 max-width: 500px;
 border-radius: 10%;
 justify-self: center;
-`;
-
-export const Description = styled.p`
 `;

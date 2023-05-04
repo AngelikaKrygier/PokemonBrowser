@@ -9,3 +9,13 @@ export const getPokemonInf = async () => {
 
     return await response.json();
 };
+
+export const getSinglePokemonInf = async (pokemonKey) => {
+    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonKey}`)
+
+    if (!response.ok) {
+        throw new Error(response.statusText);
+    };
+
+    return await response.json();
+};
