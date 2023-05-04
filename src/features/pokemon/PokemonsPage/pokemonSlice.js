@@ -26,4 +26,5 @@ export const { fetchPokemonLoading, fetchPokemonError, fetchPokemonSuccess } = p
 export const selectPokemonSlice = (state) => state.pokemon;
 export const selectPokemon = (state) => selectPokemonSlice(state).pokemon;
 export const selectPokemonState = (state) => selectPokemonSlice(state).pokemonState;
+
 export default pokemonSlice.reducer;

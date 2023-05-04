@@ -1,8 +1,8 @@
 import { put, takeLatest, call, delay } from "redux-saga/effects";
 import { fetchPokemonError, fetchPokemonLoading, fetchPokemonSuccess } from "./pokemonSlice";
-import { getPokemonInf } from "./getPokemonInf";
+import { getPokemonInf } from "../getPokemonInf";
 
-const DELAY_ACTION = 3000;
+const DELAY_ACTION = 2000;
 
 function* watchFetchPokemonHandler() {
     try {
@@ -14,6 +14,6 @@ function* watchFetchPokemonHandler() {
     };
 };
 
-export function* watchFetchPortfolio() {
+export function* watchFetchPokemon() {
     yield takeLatest(fetchPokemonLoading.type, watchFetchPokemonHandler)
 };
