@@ -14,7 +14,7 @@ margin: 20px auto;
 
 export const TableHeader = styled.th`
 border: 1px solid ${({ theme }) => theme.table.border};
-padding: 15px;
+padding: ${({ theme }) => theme.padding.small};
 background-color: ${({ theme }) => theme.table.headerBackground};
 color: ${({ theme }) => theme.table.headerFont};
 font-weight: 500;
@@ -23,7 +23,7 @@ font-weight: 500;
 export const TableData = styled.td`
 border: 1px solid;
 text-align: center;
-padding: 15px;
+padding: ${({ theme }) => theme.padding.small};
 background-color: ${({ theme }) => theme.table.dataBackground}; 
 color: ${({ theme }) => theme.table.dataFont};
 font-weight: 600;

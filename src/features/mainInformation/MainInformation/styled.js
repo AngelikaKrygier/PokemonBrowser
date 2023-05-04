@@ -7,13 +7,13 @@ justify-content: center;
 `;
 
 export const Header = styled.h2`
-padding: 20px;
+padding: ${({ theme }) => theme.padding.small};
 color: ${({ theme }) => theme.baseColorFont};
 `;
 
 export const Content = styled.p`
 line-height: 30px;
-padding: 20px;
+padding: ${({ theme }) => theme.padding.small};
 color: ${({ theme }) => theme.baseColorFont};
 `;
 

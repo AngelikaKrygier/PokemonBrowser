@@ -11,7 +11,7 @@ margin: 20px;
 
 export const Message = styled.p`
 text-align: center;
-padding: 20px;
+padding: ${({ theme }) => theme.padding.small};
 `;
 
 export const StyledError = styled(ErrorIcon)`

@@ -6,7 +6,7 @@ justify-content: center;
 grid-gap: 15px;
 box-shadow: ${({ theme }) => theme.boxShadow.basic};
 margin: 20px 0 0;
-padding: 10px 20px;
+padding: 10px ${({ theme }) => theme.padding.small};;
 background-color: ${({ theme }) => theme.background};
 `;
 
