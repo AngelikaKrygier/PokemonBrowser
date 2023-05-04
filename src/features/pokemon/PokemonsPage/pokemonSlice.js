@@ -3,17 +3,15 @@ import { createSlice } from "@reduxjs/toolkit";
 const pokemonSlice = createSlice({
     name: "pokemon",
     initialState: {
-        pokemon: null,
+        pokemon: [],
         pokemonState: "loading",
     },
     reducers: {
         fetchPokemonLoading: () => ({
             pokemonState: "loading",
-            pokemon: null,
         }),
         fetchPokemonError: () => ({
             pokemonState: "error",
-            pokemon: null,
         }),
         fetchPokemonSuccess: (_, { payload: pokemon }) => ({
             pokemonState: "success",
@@ -27,4 +25,13 @@ export const selectPokemonSlice = (state) => state.pokemon;
 export const selectPokemon = (state) => selectPokemonSlice(state).pokemon;
 export const selectPokemonState = (state) => selectPokemonSlice(state).pokemonState;
 
+export const selectPokemonByQuery = (state, query) => {
+    const pokemons = selectPokemon(state).results;
+
+    if (!query || query.trim() === "") {
+        return pokemons;
+    }
+    return pokemons.filter(({ name }) =>
+        name.toUpperCase().includes(query.trim().toUpperCase()));
+};
 export default pokemonSlice.reducer;

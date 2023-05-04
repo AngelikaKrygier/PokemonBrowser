@@ -1,13 +1,18 @@
 import { List, ListItem, TileButton, StyledLink } from "./styled";
 import { Tile } from "../../../../../common/Tile"
-import { useDispatch } from "react-redux";
+import { useLocation } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { selectPokemon, selectPokemonByQuery } from "../../pokemonSlice";
 
-export const PokemonFetchSuccess = ({ pokemon }) => {
-    const dispatch = useDispatch();
+export const PokemonFetchSuccess = () => {
+    const location = useLocation();
+    const searchParams = new URLSearchParams(location.search);
+    const query = searchParams.get("szukaj");
+    const pokemons = useSelector(state => selectPokemonByQuery(state, query));
 
     return (
         <List>
-            {pokemon.results.map((p) => (
+            {pokemons.map((p) => (
                 <ListItem
                     key={p.url.split('/')[6]}
                     id={p.url}
