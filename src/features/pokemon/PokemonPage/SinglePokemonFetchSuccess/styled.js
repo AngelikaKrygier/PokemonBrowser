@@ -1,4 +1,11 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+
+export const Wrapper = styled.div`
+display: grid;
+grid-template-columns: 1fr;
+grid-gap: 20px;
+`;
 
 export const FeatureTable = styled.table`
 border-collapse: collapse;
@@ -20,4 +27,24 @@ padding: 15px;
 background-color: ${({ theme }) => theme.table.dataBackground}; 
 color: ${({ theme }) => theme.table.dataFont};
 font-weight: 600;
+`;
+
+export const Button = styled.button`
+max-width: 150px;
+color: ${({ theme }) => theme.Button.fontColor};
+background-color: ${({ theme }) => theme.Button.background};
+border: none;
+padding: 10px;
+cursor: pointer;
+transition: 0.3s;
+
+&:hover {
+    background-color: ${({ theme }) => theme.tile.hoverButton};
+};
+`;
+
+export const StyledLink = styled(Link)`
+color: ${({ theme }) => theme.tile.buttonFontColor};
+text-decoration: none;
+justify-self: center;
 `;

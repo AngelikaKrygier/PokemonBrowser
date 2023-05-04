@@ -35,7 +35,7 @@ export const light = {
         border: colorNames.doveGrey,
         font: colorNames.mercury,
     },
-    searchButton: {
+    Button: {
         background: colorNames.teal,
         fontColor: colorNames.white,
     },
@@ -79,7 +79,7 @@ export const dark = {
         border: colorNames.doveGrey,
         font: colorNames.mercury,
     },
-    searchButton: {
+    Button: {
         background: colorNames.lightTeal,
         fontColor: colorNames.white,
     },
