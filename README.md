@@ -2,10 +2,10 @@
 
 PokemonBrowser is an application used for browsing information about Pokémon. With its help, you can search for a selected Pokémon and check its height, weight, species, and ID. The browser also allows you to set a user-friendly theme. In the near future, the application will be adapted for comfortable browsing on mobile devices.
 
-![PokemonBrowser](https://user-images.githubusercontent.com/123166327/236390785-89675468-a315-4f99-8e82-dfb32f0ab394.gif)
+![PokemonBrowser1](https://user-images.githubusercontent.com/123166327/236392469-bd75cc88-c251-4ada-991b-26078b238751.gif)
 
 ## Demo
-https://angelikakrygier.github.io/PokemonBrowser/
+https://angelikakrygier.github.io/PokemonBrowser/#/pokemony
 
 ## Technologies
 - HTML
