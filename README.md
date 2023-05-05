@@ -7,6 +7,18 @@ PokemonBrowser is an application used for browsing information about Pokémon. W
 ## Demo
 https://angelikakrygier.github.io/PokemonBrowser/
 
+## Technologies
+- HTML
+- CSS
+- JavaScript
+- Redux
+- Redux-Saga
+- React
+- Hooks
+- React Router
+- API
+- Styled Components
+
 ## Available Scripts
 
 In the project directory, you can run:
