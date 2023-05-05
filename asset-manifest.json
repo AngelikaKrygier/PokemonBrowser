@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/PokemonBrowser/static/js/main.7fcdc79b.js",
+    "static/js/787.f15f2295.chunk.js": "/PokemonBrowser/static/js/787.f15f2295.chunk.js",
+    "static/media/pokemon.jpg": "/PokemonBrowser/static/media/pokemon.16d96b4b8736d6314d85.jpg",
+    "static/media/Emot.svg": "/PokemonBrowser/static/media/Emot.97095c97acadd46d215aed2ce21a1f26.svg",
+    "static/media/sun.svg": "/PokemonBrowser/static/media/sun.7b4b3660d115e3fcfaefbf381ffd2d03.svg",
+    "static/media/Error.svg": "/PokemonBrowser/static/media/Error.bf5b866a1a5a7f8786697364fcccb6fd.svg",
+    "index.html": "/PokemonBrowser/index.html",
+    "static/media/Ellipse.svg": "/PokemonBrowser/static/media/Ellipse.61dc85dc046076ce594b9a4feef94097.svg",
+    "main.7fcdc79b.js.map": "/PokemonBrowser/static/js/main.7fcdc79b.js.map",
+    "787.f15f2295.chunk.js.map": "/PokemonBrowser/static/js/787.f15f2295.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.7fcdc79b.js"
+  ]
+}
